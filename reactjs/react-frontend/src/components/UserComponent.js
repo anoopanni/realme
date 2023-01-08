@@ -23,10 +23,12 @@ class UserComponent extends React.Component {
                 <h1 className='text-center'> Users List </h1>
                 <table className='table table-striped'>
                     <thead>
-                        <td> User Id </td>
-                        <td> User First Name </td>
-                        <td> User Last Name </td>
-                        <td> User Email </td>
+                        <tr>
+                            <td> User Id </td>
+                            <td> User First Name </td>
+                            <td> User Last Name </td>
+                            <td> User Email </td>
+                        </tr>
                     </thead>
                     <tbody>
                         {
